@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app:
+    container_name: game
+    build: .
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - '8081:81'
+    expose:
+      - '8081'
