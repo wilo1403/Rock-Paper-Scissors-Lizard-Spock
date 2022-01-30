@@ -9,7 +9,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 
 /**
- * GameCommand (hotfix v1.0.1 critical adjustment)
+ * GameCommand (hotfix v1.0.1 critical adjustment) (feature v1.2.0)
  */
 class GameCommand extends Command
 {
