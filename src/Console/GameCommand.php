@@ -8,6 +8,9 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 
+/**
+ * GameCommand (hotfix v1.0.1 critical adjustment)
+ */
 class GameCommand extends Command
 {
     protected $config;
